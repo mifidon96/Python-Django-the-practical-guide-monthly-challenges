@@ -1,0 +1,27 @@
+A URL (or route) is an address that sends users to a specific resource online
+
+Views - The logic that is excluded for different URLs
+(and Http methods)
+
+Filters - Adjustments or little transformations that we can apply to values
+that we're outputting with interpolation
+
+DTL - Django Template Language 
+
+Templates allow us to define HTML documents with dynamic content wherte the content 
+is then set dynamically by Django based on data we generate in our views which we 
+then pass into our template with the render function for example
+
+We can use filters to adjust the "look" or the formatting of certain values
+
+We use the for tag when repeating conjtent and rendering a list of content based on some date
+
+The if tag renders content conditionally
+
+Template inheritance - a method to add all the elements of an HTML file into 
+another without copy-pasting the entire code
+
+to use static files we needed to first:
+  load the feature
+  Then Django could construct these static paths to include static files such
+  as CSS files
